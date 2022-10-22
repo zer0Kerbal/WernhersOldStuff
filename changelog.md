@@ -10,6 +10,66 @@
 | spacedock  | (https://spacedock.info/mod/42)                               |
 | ckan       | WernhersOldStuff                                              |
 
+## Version 1.9.99.2-prerelease `<Third First Steps>` edition
+
+* 22 Oct 2022
+* Release for Kerbal Space Program KSP 1.12.3
+
+### Summary 1.9.99.2
+
+This is next in a series of updates to this addon.
+Each (pre)release will update some of the parts and patches so this addon can be updated in a more manageable way.
+
+ghostparts.cfg has been updated and temporarily added to this addon to compensate for parts that were renamed.
+
+This Release has been reduced by 1.0mb  (cumulatively 1.86mb) by removing duplicate files and texture conversions.
+
+### Parts 1.9.99.2
+
+Aggregat2\Base.cfg
+a10-Fin\A10Wing.cfg
+RedstoneShroud\aerodynamicEngineShroud.cfg
+RedstoneFin\A6Wing.cfg
+A12Fairing\Cover.cfg
+A11Fin\A11Wing.cfg
+A-11Fairing\A11-Shell.cfg
+A-10Fairing\Cover.cfg
+
+Aggregat4Extras\internal.cfg
+Aggregat4Extras\internal-rpm.cfg
+Aggregat4Extras\Prop_Seat_A9.cfg
+Aggregat4Extras\A9Cockpit.cfg
+
+Aggregat2\OxygenTank.cfg
+Aggregat2\NitrogenTank.cfg
+Aggregat2\Gyro.cfg
+Aggregat2\FuelTank.cfg
+Aggregat2\EngineA-2.cfg
+
+---
+
+Aggregat4Extras\Skids.cfg
+Aggregat4Extras\A9Wing.cfg
+Aggregat4Extras\A6Ramjet.cfg
+Aggregat4Extras\A-6wing.cfg
+Aggregat4Extras\A-4bWing.cfg
+
+Aggregat4\A4Wing.cfg
+Aggregat4\A4Fuel.cfg
+Aggregat4\A4Nose.cfg
+Aggregat4\A4Engine.cfg
+Aggregat4\A4ControlRoom.cfg
+
+Aggregat3n5\OxygenTank.cfg
+Aggregat3n5\NoseA5.cfg
+Aggregat3n5\NoseA3.cfg
+Aggregat3n5\EngineFueltank.cfg
+Aggregat3n5\Base.cfg
+Aggregat3n5\A5Wing.cfg
+Aggregat3n5\A3Wing.cfg
+
+
+
 ## Version 1.9.99.1-prerelease `<2nd First Steps>` edition
 
 * 12 Aug 2022  
