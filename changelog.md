@@ -24,7 +24,32 @@ ghostparts.cfg has been updated and temporarily added to this addon to compensat
 
 This Release has been reduced by 1.0mb  (cumulatively 1.86mb) by removing duplicate files and texture conversions.
 
+### Spaces 1.9.99.2
+
+wos-iva-A9
+wos-iva-A9-rpm
+Prop-Seat-A9
+Aggregat4Extras\internal.cfg
+Aggregat4Extras\internal-rpm.cfg
+Aggregat4Extras\Prop_Seat_A9.cfg
+
+### Configs 1.9.99.2
+
+* <VariantThemes.cfg> v1.0.0.0
+* closes #44 - [BUG] Unable to find theme
+
 ### Parts 1.9.99.2
+
+
+A9Cockpit.cfg
+Skids.cfg
+A9Wing.cfg --> wos-A9-wing
+A6Ramjet.cfg
+A-6wing.cfg
+A-4bWing.cfg
+
+
+---
 
 Aggregat2\Base.cfg
 a10-Fin\A10Wing.cfg
@@ -35,24 +60,11 @@ A11Fin\A11Wing.cfg
 A-11Fairing\A11-Shell.cfg
 A-10Fairing\Cover.cfg
 
-Aggregat4Extras\internal.cfg
-Aggregat4Extras\internal-rpm.cfg
-Aggregat4Extras\Prop_Seat_A9.cfg
-Aggregat4Extras\A9Cockpit.cfg
-
 Aggregat2\OxygenTank.cfg
 Aggregat2\NitrogenTank.cfg
 Aggregat2\Gyro.cfg
 Aggregat2\FuelTank.cfg
 Aggregat2\EngineA-2.cfg
-
----
-
-Aggregat4Extras\Skids.cfg
-Aggregat4Extras\A9Wing.cfg
-Aggregat4Extras\A6Ramjet.cfg
-Aggregat4Extras\A-6wing.cfg
-Aggregat4Extras\A-4bWing.cfg
 
 Aggregat4\A4Wing.cfg
 Aggregat4\A4Fuel.cfg
