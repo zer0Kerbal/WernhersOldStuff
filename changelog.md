@@ -49,22 +49,45 @@
 ### Asset 1.9.99.3
 
 * converted to .dds from png
-
+* Eliminated duplicated
   * <blotchydark.dds> 22kb
+  * <RedstoneA6-NAA75-110Turbine.dds> 1.33mb
 * Parts
   * Wing4Redstone --> wos-A6-wing
+  * Wing4A10 -->  wos-A10-wing
+  *  --> 
+  *  --> 
+  *  --> 
+  *  --> 
+  *  --> 
+  *  --> 
   *  --> 
 * Part files
   * <Wing4Redstone.cfg> --> <wos-A6-wing.cfg>
+  * <Wing4A10.cfg> --> <wos-A10-wing.cfg>
+  * <.cfg> --> <.cfg>
+  * <.cfg> --> <.cfg>
+  * <.cfg> --> <.cfg>
+  * <.cfg> --> <.cfg>
+  * <.cfg> --> <.cfg>
+  * <.cfg> --> <.cfg>
+  * <.cfg> --> <.cfg>
   * <.cfg> --> <.cfg>
 * Models
-  * <NewModel.mu> --> <wos-A6-wing.mu>
+  * <NewModel.mu> --> <A6-wing.mu>
+  * <NewModel.mu> --> <A10-wing.mu>
+  * <NewModel.mu> --> <.mu>
+  * <NewModel.mu> --> <.mu>
+  * <NewModel.mu> --> <.mu>
+  * <NewModel.mu> --> <.mu>
+  * <NewModel.mu> --> <.mu>
   * <NewModel.mu> --> <.mu>
 
 ### Configs 1.9.99.3
 
-* <VariantThemes.cfg> v1.0.0.0
-* closes #44 - [BUG] Unable to find theme
+* Update
+  * <WernhersOldStuff.cfg> v1.1.0.0
+    * add series specific tags
 
 ### Compatibility 1.9.99.3
 
