@@ -51,6 +51,7 @@
 * converted to .dds from png
 * Eliminated duplicated
   * <blotchydark.dds> 22kb
+  * <blotchydark.dds> 22kb
   * <RedstoneA6-NAA75-110Turbine.dds> 1.33mb
   * <RedstoneA6-NAA75-110Turbine.dds> 1.33mb
   * <GreenContrlFin.dds> 21.4kb
