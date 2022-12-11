@@ -56,9 +56,9 @@
   * <GreenContrlFin.dds> 21.4kb
 * Parts
   * Wing4Redstone --> wos-A6-wing
-  * Wing4A10 -->  wos-A10-wing
+  * Wing4A10 --> wos-A10-wing
   * Wing4A11 --> wos-A11-wing
-  *  --> 
+  * RedstoneEngineShroud --> wos-A6-engine-shroud
   *  --> 
   *  --> 
   *  --> 
@@ -68,7 +68,7 @@
   * <A6wing.cfg> --> <wos-A6-wing.cfg>
   * <A10wing.cfg> --> <wos-A10-wing.cfg>
   * <A11wing.cfg> --> <wos-A11-wing.cfg>
-  * <.cfg> --> <.cfg>
+  * <RedstoneEngineShroud.cfg> --> <wos-A6-engine-shroud.cfg>
   * <.cfg> --> <.cfg>
   * <.cfg> --> <.cfg>
   * <.cfg> --> <.cfg>
@@ -79,7 +79,7 @@
   * <NewModel.mu> --> <A6-wing.mu>
   * <NewModel.mu> --> <A10-wing.mu>
   * <NewModel.mu> --> <A11-wing.mu>
-  * <NewModel.mu> --> <.mu>
+  * <NewModel.mu> --> <A6-engine-shroud.mu>
   * <NewModel.mu> --> <.mu>
   * <NewModel.mu> --> <.mu>
   * <NewModel.mu> --> <.mu>
