@@ -60,7 +60,7 @@
   * Wing4A10 --> wos-A10-wing
   * Wing4A11 --> wos-A11-wing
   * RedstoneEngineShroud --> wos-A6-engine-shroud
-  *  --> 
+  * A10_Shell --> 
   *  --> 
   *  --> 
   *  --> 
@@ -70,7 +70,7 @@
   * <A10wing.cfg> --> <wos-A10-wing.cfg>
   * <A11wing.cfg> --> <wos-A11-wing.cfg>
   * <RedstoneEngineShroud.cfg> --> <wos-A6-engine-shroud.cfg>
-  * <.cfg> --> <.cfg>
+  * <Cover.cfg> --> <.cfg>
   * <.cfg> --> <.cfg>
   * <.cfg> --> <.cfg>
   * <.cfg> --> <.cfg>
