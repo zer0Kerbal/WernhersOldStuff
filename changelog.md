@@ -54,6 +54,7 @@
   * <blotchydark.dds> 22kb
   * <RedstoneA6-NAA75-110Turbine.dds> 1.33mb
   * <RedstoneA6-NAA75-110Turbine.dds> 1.33mb
+  * <RedstoneA6-NAA75-110Turbine.dds> 1.33mb
   * <GreenContrlFin.dds> 21.4kb
 * Parts
   * Wing4Redstone --> wos-A6-wing
