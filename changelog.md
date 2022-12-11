@@ -55,7 +55,7 @@
 * Parts
   * Wing4Redstone --> wos-A6-wing
   * Wing4A10 -->  wos-A10-wing
-  *  --> 
+  * Wing4A11 --> 
   *  --> 
   *  --> 
   *  --> 
@@ -63,9 +63,9 @@
   *  --> 
   *  --> 
 * Part files
-  * <Wing4Redstone.cfg> --> <wos-A6-wing.cfg>
-  * <Wing4A10.cfg> --> <wos-A10-wing.cfg>
-  * <.cfg> --> <.cfg>
+  * <A6wing.cfg> --> <wos-A6-wing.cfg>
+  * <A10wing.cfg> --> <wos-A10-wing.cfg>
+  * <A11wing.cfg> --> <.cfg>
   * <.cfg> --> <.cfg>
   * <.cfg> --> <.cfg>
   * <.cfg> --> <.cfg>
