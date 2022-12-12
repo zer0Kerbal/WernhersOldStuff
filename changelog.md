@@ -22,8 +22,8 @@
 * This is next in a series of updates with each (pre)release updating some of the fourty-seven (47) parts and patches so this addon can be updated in a more manageable way.
 * All parts have been localized, some part tags need to be added yet, placeholders are in place
 * This update pass (47 parts total)
-  * twenty-two (22) parts updated
-  * reduced release size by 1.0mb (culmative 1.86mb)
+  * seven (7) parts updated
+  * reduced release size by 1.44mb (culmative 3.3mb less png-dds conversion)
   * twenty-five (25) parts left to update
 * Now can search `wos` in editors
 * ghostparts.cfg has been updated and temporarily added to this addon to compensate for parts that were renamed.
