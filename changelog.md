@@ -49,45 +49,42 @@
 ### Asset 1.9.99.3
 
 * converted to .dds from png
-* Eliminated duplicated
-  * <blotchydark.dds> 22kb
-  * <blotchydark.dds> 22kb
-  * <RedstoneA6-NAA75-110Turbine.dds> 1.33mb
-  * <RedstoneA6-NAA75-110Turbine.dds> 1.33mb
-  * <RedstoneA6-NAA75-110Turbine.dds> 1.33mb
-  * <GreenContrlFin.dds> 21.4kb
-  * <GreenContrlFin.dds> 21.4kb
-  * <GreenContrlFin.dds> 21.4kb
-* Parts
-  * Wing4Redstone --> wos-A6-wing
-  * Wing4A10 --> wos-A10-wing
-  * Wing4A11 --> wos-A11-wing
-  * RedstoneEngineShroud --> wos-A6-engine-shroud
-  * A10_Shell --> wos-A10-shell
-  * A11_Shell --> wos-A11-shell
-  * A12_Shell --> wos-A12-shell
-* Part files
-  * <A6wing.cfg> --> <wos-A6-wing.cfg>
-  * <A10wing.cfg> --> <wos-A10-wing.cfg>
-  * <A11wing.cfg> --> <wos-A11-wing.cfg>
-  * <RedstoneEngineShroud.cfg> --> <wos-A6-engine-shroud.cfg>
-  * <Cover.cfg> --> <wos-A10-shell.cfg>
-  * <A11_Shell.cfg> --> <wos-A11-shell.cfg>
-  * <Cover.cfg> --> <wos-A12-shell.cfg>
-* Models
-  * <NewModel.mu> --> <A6-wing.mu>
-  * <NewModel.mu> --> <A10-wing.mu>
-  * <NewModel.mu> --> <A11-wing.mu>
-  * <NewModel.mu> --> <A6-engine-shroud.mu>
-  * <NewModel.mu> --> <A10-shell.mu>
-  * <NewModel.mu> --> <A11-shell.mu>
-  * <NewModel.mu> --> <A12-shell.mu>
+* Eliminated duplicates
+  * 2x <blotchydark.dds> 22kb {44kb}
+  * 3x <RedstoneA6-NAA75-110Turbine.dds> 1.33mb {3.99mb}
+  * 3x <GreenContrlFin.dds> 22kb {66kb}
+* Rename
+  * Parts
+    * Wing4Redstone --> wos-A6-winglet
+    * Wing4A10 --> wos-A10-wing
+    * Wing4A11 --> wos-A11-wing
+    * RedstoneEngineShroud --> wos-A6-engine-shroud
+    * A10_Shell --> wos-A10-shell
+    * A11_Shell --> wos-A11-shell
+    * A12_Shell --> wos-A12-shell
+  * Part config
+    * <A6wing.cfg> --> <wos-A6-winglet.cfg>
+    * <A10wing.cfg> --> <wos-A10-wing.cfg>
+    * <A11wing.cfg> --> <wos-A11-wing.cfg>
+    * <RedstoneEngineShroud.cfg> --> <wos-A6-engine-shroud.cfg>
+    * <Cover.cfg> --> <wos-A10-shell.cfg>
+    * <A11_Shell.cfg> --> <wos-A11-shell.cfg>
+    * <Cover.cfg> --> <wos-A12-shell.cfg>
+  * Models
+    * <NewModel.mu> --> <A6-winglet.mu>
+    * <NewModel.mu> --> <A10-wing.mu>
+    * <NewModel.mu> --> <A11-wing.mu>
+    * <NewModel.mu> --> <A6-engine-shroud.mu>
+    * <NewModel.mu> --> <A10-shell.mu>
+    * <NewModel.mu> --> <A11-shell.mu>
+    * <NewModel.mu> --> <A12-shell.mu>
 
 ### Configs 1.9.99.3
 
 * Update
   * <WernhersOldStuff.cfg> v1.1.0.0
     * add series specific tags
+  * <VariantThemes.cfg> v1.0.1.0
 
 ### Compatibility 1.9.99.3
 
@@ -97,12 +94,13 @@
 ### Parts 1.9.99.3
 
 * Updated
+  * <A-6wing.cfg> --> <wos-A6-wing.cfg>
+  * <A9Wing.cfg> --> <wos-A9-wing.cfg>
   * <A9Cockpit.cfg> --> <wos-A9-cockpit-nose.cfg>
   * <Skids.cfg> --> <wos-aggregate-skid.cfg>
-  * <A9Wing.cfg> --> <wos-A9-wing.cfg>
   * <A6Ramjet.cfg> --> <wos-A6-Ramjet-two.cfg>
-  * <A-6wing.cfg> --> <wos-A6-wing.cfg>
   * <A-4bWing.cfg> --> <wos-A4-wing-b.cfg>
+* closes #58 - [BUG] wos-A12-tank-dual: part cost (13000.0) is less than the cost of its resources (190391.1)
 
 ### Status 1.9.99.3
 
