@@ -22,33 +22,35 @@
 * This is next in a series of updates with each (pre)release updating some of the fourty-seven (47) parts and patches so this addon can be updated in a more manageable way.
 * All parts have been localized, some part tags need to be added yet, placeholders are in place
 * This update pass (47 parts total)
-  * twenty-two (22) parts updated
-  * reduced release size by 1.0mb (culmative 1.86mb)
-  * twenty-five (25) parts left to update
-* Now can search `wos` in editors
-* ghostparts.cfg has been updated and temporarily added to this addon to compensate for parts that were renamed.
+  * seven (7) parts updated
+  * reduced release size by 1.44mb (culmative 3.3mb less png-dds conversion)
+  * eighteen (18) parts left to update
+* Now can search `wos`, `A2`, `A3`, `A4`, `A5`, `A6`, `A9`, `A10`, `A11`, `A12` in editors
+* ghostparts.cfg has been updated and temporarily addedto compensate for parts that were renamed
+* parts updated this release include:
+  * A6 engine shroud
+  * A6 winglet
+  * A10 shell
+  * A10 wing
+  * A11 shell
+  * A11 wing
+  * A12 shell
+  * A9 cockpit nose
+    * add weak reaction wheel (request)
 
 ### Localization 1.9.99.3
 
 * Update
-  * <en-us.cfg> v1.0.0.0
+  * <en-us.cfg> v1.0.1.0
+    * linting
+    * organizing
 * updates #12 - Localization - Master
 * updates #13 - English <us-en.cfg>
 * updates #30 - Part Localization
 
-### Spaces 1.9.99.3
-
-* Updated
-  * wos-iva-A9
-  * wos-iva-A9-rpm
-  * Prop-Seat-A9
-  * Aggregat4Extras\internal.cfg
-  * Aggregat4Extras\internal-rpm.cfg
-  * Aggregat4Extras\Prop_Seat_A9.cfg
-
 ### Asset 1.9.99.3
 
-* converted to .dds from png
+* converted .png to .dds
 * Eliminated duplicates
   * 2x <blotchydark.dds> 22kb {44kb}
   * 3x <RedstoneA6-NAA75-110Turbine.dds> 1.33mb {3.99mb}
@@ -85,26 +87,50 @@
   * <WernhersOldStuff.cfg> v1.1.0.0
     * add series specific tags
   * <VariantThemes.cfg> v1.0.1.0
+    * finish localizing
 
 ### Compatibility 1.9.99.3
 
 * Add
   * <RealSolarSystem.cfg> v1.0.0.0
+    * pull from part configs
 
 ### Parts 1.9.99.3
 
 * Updated
-  * <A-6wing.cfg> --> <wos-A6-wing.cfg>
-  * <A9Wing.cfg> --> <wos-A9-wing.cfg>
-  * <A9Cockpit.cfg> --> <wos-A9-cockpit-nose.cfg>
-  * <Skids.cfg> --> <wos-aggregate-skid.cfg>
-  * <A6Ramjet.cfg> --> <wos-A6-Ramjet-two.cfg>
-  * <A-4bWing.cfg> --> <wos-A4-wing-b.cfg>
+  * localized
+  * linted
+  * organized
+  * correct cost of A12-tank-dual
+  * Add
+    * weak reaction wheel to A9 cockpit (request)
+    * thank you to [claustro](https://forum.kerbalspaceprogram.com/index.php?/profile/193094-*/) for the suggestion
+  * Rename
+    * Parts
+      * Wing4Redstone --> wos-A6-winglet
+      * Wing4A10 --> wos-A10-wing
+      * Wing4A11 --> wos-A11-wing
+      * RedstoneEngineShroud --> wos-A6-engine-shroud
+      * A10_Shell --> wos-A10-shell
+      * A11_Shell --> wos-A11-shell
+      * A12_Shell --> wos-A12-shell
+    * Part config
+      * <A6wing.cfg> --> <wos-A6-winglet.cfg>
+      * <A10wing.cfg> --> <wos-A10-wing.cfg>
+      * <A11wing.cfg> --> <wos-A11-wing.cfg>
+      * <RedstoneEngineShroud.cfg> --> <wos-A6-engine-shroud.cfg>
+      * <Cover.cfg> --> <wos-A10-shell.cfg>
+      * <A11_Shell.cfg> --> <wos-A11-shell.cfg>
+      * <Cover.cfg> --> <wos-A12-shell.cfg>
 * closes #58 - [BUG] wos-A12-tank-dual: part cost (13000.0) is less than the cost of its resources (190391.1)
+* closes #52 - [Request]: add reaction wheels to command noses (weak to match period)
+* updates #57 - [Bug] Part costs
 
 ### Status 1.9.99.3
 
 * Issues
+  * closes #55 - Wernher's Old Stuff (WOS) 1.9.99.3-prerelease `<Fourth First Steps>` edition
+  * closes #56 - 1.9.99.3 Additional Tasks
   * updates #32 - Assets move and organization 🎨 📁
   * updates #31 - Rename
   * updates #36 - Add part thumbs
