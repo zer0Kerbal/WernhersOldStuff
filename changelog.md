@@ -61,7 +61,8 @@
   * Wing4A10 --> wos-A10-wing
   * Wing4A11 --> wos-A11-wing
   * RedstoneEngineShroud --> wos-A6-engine-shroud
-  * A10_Shell --> 
+  * A10_Shell --> wos-A10-shell
+  * A11_Shell --> wos-A11-shell
   *  --> 
   *  --> 
   *  --> 
@@ -71,8 +72,8 @@
   * <A10wing.cfg> --> <wos-A10-wing.cfg>
   * <A11wing.cfg> --> <wos-A11-wing.cfg>
   * <RedstoneEngineShroud.cfg> --> <wos-A6-engine-shroud.cfg>
-  * <Cover.cfg> --> <.cfg>
-  * <.cfg> --> <.cfg>
+  * <Cover.cfg> --> <wos-A10-shell.cfg>
+  * <A11_Shell.cfg> --> <wos-A11-shell.cfg>
   * <.cfg> --> <.cfg>
   * <.cfg> --> <.cfg>
   * <.cfg> --> <.cfg>
@@ -82,7 +83,8 @@
   * <NewModel.mu> --> <A10-wing.mu>
   * <NewModel.mu> --> <A11-wing.mu>
   * <NewModel.mu> --> <A6-engine-shroud.mu>
-  * <NewModel.mu> --> <.mu>
+  * <NewModel.mu> --> <A10-shell.mu>
+  * <NewModel.mu> --> <A11-shell.mu>
   * <NewModel.mu> --> <.mu>
   * <NewModel.mu> --> <.mu>
   * <NewModel.mu> --> <.mu>
