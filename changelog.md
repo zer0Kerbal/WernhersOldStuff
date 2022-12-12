@@ -56,6 +56,8 @@
   * <RedstoneA6-NAA75-110Turbine.dds> 1.33mb
   * <RedstoneA6-NAA75-110Turbine.dds> 1.33mb
   * <GreenContrlFin.dds> 21.4kb
+  * <GreenContrlFin.dds> 21.4kb
+  * <GreenContrlFin.dds> 21.4kb
 * Parts
   * Wing4Redstone --> wos-A6-wing
   * Wing4A10 --> wos-A10-wing
@@ -63,10 +65,7 @@
   * RedstoneEngineShroud --> wos-A6-engine-shroud
   * A10_Shell --> wos-A10-shell
   * A11_Shell --> wos-A11-shell
-  *  --> 
-  *  --> 
-  *  --> 
-  *  --> 
+  * A12_Shell --> wos-A12-shell
 * Part files
   * <A6wing.cfg> --> <wos-A6-wing.cfg>
   * <A10wing.cfg> --> <wos-A10-wing.cfg>
@@ -74,10 +73,7 @@
   * <RedstoneEngineShroud.cfg> --> <wos-A6-engine-shroud.cfg>
   * <Cover.cfg> --> <wos-A10-shell.cfg>
   * <A11_Shell.cfg> --> <wos-A11-shell.cfg>
-  * <.cfg> --> <.cfg>
-  * <.cfg> --> <.cfg>
-  * <.cfg> --> <.cfg>
-  * <.cfg> --> <.cfg>
+  * <Cover.cfg> --> <wos-A12-shell.cfg>
 * Models
   * <NewModel.mu> --> <A6-wing.mu>
   * <NewModel.mu> --> <A10-wing.mu>
@@ -85,9 +81,7 @@
   * <NewModel.mu> --> <A6-engine-shroud.mu>
   * <NewModel.mu> --> <A10-shell.mu>
   * <NewModel.mu> --> <A11-shell.mu>
-  * <NewModel.mu> --> <.mu>
-  * <NewModel.mu> --> <.mu>
-  * <NewModel.mu> --> <.mu>
+  * <NewModel.mu> --> <A12-shell.mu>
 
 ### Configs 1.9.99.3
 
