@@ -10,6 +10,110 @@
 | spacedock  | (https://spacedock.info/mod/42)                                   |
 | ckan       | WernhersOldStuff                                                  |
 
+<<<<<<< Updated upstream
+=======
+## Version 1.9.99.3-prerelease `<Fourth First Steps>` edition
+
+* Released
+  * on: 11 Dec 2022
+  * for: Kerbal Space Program KSP 1.12.4
+  * by: zer0Kerbal
+
+### Summary 1.9.99.3
+
+* This is next in a series of updates with each (pre)release updating some of the fourty-seven (47) parts and patches so this addon can be updated in a more manageable way.
+* All parts have been localized, some part tags need to be added yet, placeholders are in place
+* This update pass (47 parts total)
+  * twenty-two (22) parts updated
+  * reduced release size by 1.0mb (culmative 1.86mb)
+  * twenty-five (25) parts left to update
+* Now can search `wos` in editors
+* ghostparts.cfg has been updated and temporarily added to this addon to compensate for parts that were renamed.
+
+### Localization 1.9.99.3
+
+* Update
+  * <en-us.cfg> v1.0.0.0
+* updates #12 - Localization - Master
+* updates #13 - English <us-en.cfg>
+* updates #30 - Part Localization
+
+### Spaces 1.9.99.3
+
+* Updated
+  * wos-iva-A9
+  * wos-iva-A9-rpm
+  * Prop-Seat-A9
+  * Aggregat4Extras\internal.cfg
+  * Aggregat4Extras\internal-rpm.cfg
+  * Aggregat4Extras\Prop_Seat_A9.cfg
+
+### Asset 1.9.99.3
+
+* converted to .dds from png
+* Eliminated duplicates
+  * 2x <blotchydark.dds> 22kb {44kb}
+  * 3x <RedstoneA6-NAA75-110Turbine.dds> 1.33mb {3.99mb}
+  * 3x <GreenContrlFin.dds> 22kb {66kb}
+* Rename
+  * Parts
+    * Wing4Redstone --> wos-A6-winglet
+    * Wing4A10 --> wos-A10-wing
+    * Wing4A11 --> wos-A11-wing
+    * RedstoneEngineShroud --> wos-A6-engine-shroud
+    * A10_Shell --> wos-A10-shell
+    * A11_Shell --> wos-A11-shell
+    * A12_Shell --> wos-A12-shell
+  * Part config
+    * <A6wing.cfg> --> <wos-A6-winglet.cfg>
+    * <A10wing.cfg> --> <wos-A10-wing.cfg>
+    * <A11wing.cfg> --> <wos-A11-wing.cfg>
+    * <RedstoneEngineShroud.cfg> --> <wos-A6-engine-shroud.cfg>
+    * <Cover.cfg> --> <wos-A10-shell.cfg>
+    * <A11_Shell.cfg> --> <wos-A11-shell.cfg>
+    * <Cover.cfg> --> <wos-A12-shell.cfg>
+  * Models
+    * <NewModel.mu> --> <A6-winglet.mu>
+    * <NewModel.mu> --> <A10-wing.mu>
+    * <NewModel.mu> --> <A11-wing.mu>
+    * <NewModel.mu> --> <A6-engine-shroud.mu>
+    * <NewModel.mu> --> <A10-shell.mu>
+    * <NewModel.mu> --> <A11-shell.mu>
+    * <NewModel.mu> --> <A12-shell.mu>
+
+### Configs 1.9.99.3
+
+* Update
+  * <WernhersOldStuff.cfg> v1.1.0.0
+    * add series specific tags
+  * <VariantThemes.cfg> v1.0.1.0
+
+### Compatibility 1.9.99.3
+
+* Add
+  * <RealSolarSystem.cfg> v1.0.0.0
+
+### Parts 1.9.99.3
+
+* Updated
+  * <A-6wing.cfg> --> <wos-A6-wing.cfg>
+  * <A9Wing.cfg> --> <wos-A9-wing.cfg>
+  * <A9Cockpit.cfg> --> <wos-A9-cockpit-nose.cfg>
+  * <Skids.cfg> --> <wos-aggregate-skid.cfg>
+  * <A6Ramjet.cfg> --> <wos-A6-Ramjet-two.cfg>
+  * <A-4bWing.cfg> --> <wos-A4-wing-b.cfg>
+* closes #58 - [BUG] wos-A12-tank-dual: part cost (13000.0) is less than the cost of its resources (190391.1)
+
+### Status 1.9.99.3
+
+* Issues
+  * updates #32 - Assets move and organization 🎨 📁
+  * updates #31 - Rename
+  * updates #36 - Add part thumbs
+
+---
+
+>>>>>>> Stashed changes
 ## Version 1.9.99.2-prerelease `<Third First Steps>` edition
 
 * Released
