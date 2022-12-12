@@ -10,6 +10,133 @@
 | spacedock  | (https://spacedock.info/mod/42)                                   |
 | ckan       | WernhersOldStuff                                                  |
 
+## Version 1.9.99.3-prerelease `<Fourth First Steps>` edition
+
+* Released
+  * on: 11 Dec 2022
+  * for: Kerbal Space Program KSP 1.12.4
+  * by: zer0Kerbal
+
+### Summary 1.9.99.3
+
+* This is next in a series of updates with each (pre)release updating some of the fourty-seven (47) parts and patches so this addon can be updated in a more manageable way.
+* All parts have been localized, some part tags need to be added yet, placeholders are in place
+* This update pass (47 parts total)
+  * seven (7) parts updated
+  * reduced release size by 1.44mb (culmative 3.3mb less png-dds conversion)
+  * eighteen (18) parts left to update
+* Now can search `wos`, `A2`, `A3`, `A4`, `A5`, `A6`, `A9`, `A10`, `A11`, `A12` in editors
+* ghostparts.cfg has been updated and temporarily addedto compensate for parts that were renamed
+* parts updated this release include:
+  * A6 engine shroud
+  * A6 winglet
+  * A10 shell
+  * A10 wing
+  * A11 shell
+  * A11 wing
+  * A12 shell
+  * A9 cockpit nose
+    * add weak reaction wheel (request)
+
+### Localization 1.9.99.3
+
+* Update
+  * <en-us.cfg> v1.0.1.0
+    * linting
+    * organizing
+* updates #12 - Localization - Master
+* updates #13 - English <us-en.cfg>
+* updates #30 - Part Localization
+
+### Asset 1.9.99.3
+
+* converted .png to .dds
+* Eliminated duplicates
+  * 2x <blotchydark.dds> 22kb {44kb}
+  * 3x <RedstoneA6-NAA75-110Turbine.dds> 1.33mb {3.99mb}
+  * 3x <GreenContrlFin.dds> 22kb {66kb}
+* Rename
+  * Parts
+    * Wing4Redstone --> wos-A6-winglet
+    * Wing4A10 --> wos-A10-wing
+    * Wing4A11 --> wos-A11-wing
+    * RedstoneEngineShroud --> wos-A6-engine-shroud
+    * A10_Shell --> wos-A10-shell
+    * A11_Shell --> wos-A11-shell
+    * A12_Shell --> wos-A12-shell
+  * Part config
+    * <A6wing.cfg> --> <wos-A6-winglet.cfg>
+    * <A10wing.cfg> --> <wos-A10-wing.cfg>
+    * <A11wing.cfg> --> <wos-A11-wing.cfg>
+    * <RedstoneEngineShroud.cfg> --> <wos-A6-engine-shroud.cfg>
+    * <Cover.cfg> --> <wos-A10-shell.cfg>
+    * <A11_Shell.cfg> --> <wos-A11-shell.cfg>
+    * <Cover.cfg> --> <wos-A12-shell.cfg>
+  * Models
+    * <NewModel.mu> --> <A6-winglet.mu>
+    * <NewModel.mu> --> <A10-wing.mu>
+    * <NewModel.mu> --> <A11-wing.mu>
+    * <NewModel.mu> --> <A6-engine-shroud.mu>
+    * <NewModel.mu> --> <A10-shell.mu>
+    * <NewModel.mu> --> <A11-shell.mu>
+    * <NewModel.mu> --> <A12-shell.mu>
+
+### Configs 1.9.99.3
+
+* Update
+  * <WernhersOldStuff.cfg> v1.1.0.0
+    * add series specific tags
+  * <VariantThemes.cfg> v1.0.1.0
+    * finish localizing
+
+### Compatibility 1.9.99.3
+
+* Add
+  * <RealSolarSystem.cfg> v1.0.0.0
+    * pull from part configs
+
+### Parts 1.9.99.3
+
+* Updated
+  * localized
+  * linted
+  * organized
+  * correct cost of A12-tank-dual
+  * Add
+    * weak reaction wheel to A9 cockpit (request)
+    * thank you to [claustro](https://forum.kerbalspaceprogram.com/index.php?/profile/193094-*/) for the suggestion
+  * Rename
+    * Parts
+      * Wing4Redstone --> wos-A6-winglet
+      * Wing4A10 --> wos-A10-wing
+      * Wing4A11 --> wos-A11-wing
+      * RedstoneEngineShroud --> wos-A6-engine-shroud
+      * A10_Shell --> wos-A10-shell
+      * A11_Shell --> wos-A11-shell
+      * A12_Shell --> wos-A12-shell
+    * Part config
+      * <A6wing.cfg> --> <wos-A6-winglet.cfg>
+      * <A10wing.cfg> --> <wos-A10-wing.cfg>
+      * <A11wing.cfg> --> <wos-A11-wing.cfg>
+      * <RedstoneEngineShroud.cfg> --> <wos-A6-engine-shroud.cfg>
+      * <Cover.cfg> --> <wos-A10-shell.cfg>
+      * <A11_Shell.cfg> --> <wos-A11-shell.cfg>
+      * <Cover.cfg> --> <wos-A12-shell.cfg>
+* closes #58 - [BUG] wos-A12-tank-dual: part cost (13000.0) is less than the cost of its resources (190391.1)
+* closes #52 - [Request]: add reaction wheels to command noses (weak to match period)
+* updates #57 - [Bug] Part costs
+
+### Status 1.9.99.3
+
+* Issues
+  * closes #55 - Wernher's Old Stuff (WOS) 1.9.99.3-prerelease `<Fourth First Steps>` edition
+  * closes #56 - 1.9.99.3 Additional Tasks
+  * updates #32 - Assets move and organization 🎨 📁
+  * updates #31 - Rename
+  * updates #36 - Add part thumbs
+
+---
+
 ## Version 1.9.99.2-prerelease `<Third First Steps>` edition
 
 * Released

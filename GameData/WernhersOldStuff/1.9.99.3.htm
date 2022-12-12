@@ -35,82 +35,177 @@ title="GitHub IO" alt="Pages" /></a></p>
 <b>DO A CLEAN INSTALL:</br> DELETE EXISTING INSTALLATION THEN RE-INSTALL</b></h4><p>Download from <a href="https://www.curseforge.com/kerbal/ksp-mods/WernhersOldStuff/files">CurseForge</a></p></div>
 
 <h2 id="summary">Summary</h2>
-<p>This is next in a series of updates to this addon. Each (pre)release
-will update some of the parts and patches so this addon can be updated
-in a more manageable way. All parts have been localized, some part tags
-need to be added yet, placeholders are in place Now can search
-<code>wos</code> in editors to find all Wernher's Old Stuff parts
-Initial update pass completed on twenty-two parts; with twenty-five (25)
-parts left to update (47 parts total) ghostparts.cfg has been updated
-and temporarily added to this addon to compensate for parts that were
-renamed.</p>
-<p>This Release has been reduced by 1.0mb (cumulatively 1.86mb) by
-removing duplicate files and texture conversions.</p>
+<ul>
+<li>This is next in a series of updates with each (pre)release updating
+some of the fourty-seven (47) parts and patches so this addon can be
+updated in a more manageable way.</li>
+<li>All parts have been localized, some part tags need to be added yet,
+placeholders are in place</li>
+<li>This update pass (47 parts total)
+<ul>
+<li>seven (7) parts updated</li>
+<li>reduced release size by 1.44mb (culmative 3.3mb less png-dds
+conversion)</li>
+<li>eighteen (18) parts left to update</li>
+</ul></li>
+<li>Now can search <code>wos</code>, <code>A2</code>, <code>A3</code>,
+<code>A4</code>, <code>A5</code>, <code>A6</code>, <code>A9</code>,
+<code>A10</code>, <code>A11</code>, <code>A12</code> in editors</li>
+<li>ghostparts.cfg has been updated and temporarily addedto compensate
+for parts that were renamed</li>
+<li>parts updated this release include:
+<ul>
+<li>A6 engine shroud</li>
+<li>A6 winglet</li>
+<li>A10 shell</li>
+<li>A10 wing</li>
+<li>A11 shell</li>
+<li>A11 wing</li>
+<li>A12 shell</li>
+<li>A9 cockpit nose
+<ul>
+<li>add weak reaction wheel (request)</li>
+</ul></li>
+</ul></li>
+</ul>
 <h3 id="localization-19993">Localization 1.9.99.3</h3>
 <ul>
-<li>run localizer</li>
-<li>Create
+<li>Update
 <ul>
-<li>Agency</li>
-<li>Localization/
+<li>&lt;en-us.cfg&gt; v1.0.1.0
 <ul>
-<li>&lt;en-us.cfg&gt;</li>
-<li>[readme.md] v2.1.2.0</li>
-<li>[quickstart.md] v1.0.1.1</li>
+<li>linting</li>
+<li>organizing</li>
 </ul></li>
 </ul></li>
-<li>Add
-<ul>
-<li>&lt;WernhersOldStuff.cfg&gt; v1.0.0.0
-<ul>
-<li>adds localized tags to parts</li>
-</ul></li>
-</ul></li>
-<li>closes #13 - English &lt;us-en.cfg&gt;</li>
-<li>closes #30 - Part Localization</li>
 <li>updates #12 - Localization - Master</li>
+<li>updates #13 - English &lt;us-en.cfg&gt;</li>
+<li>updates #30 - Part Localization</li>
 </ul>
-<h3 id="spaces-19993">Spaces 1.9.99.3</h3>
+<h3 id="asset-19993">Asset 1.9.99.3</h3>
 <ul>
-<li>Updated
+<li>converted .png to .dds</li>
+<li>Eliminated duplicates
 <ul>
-<li>wos-iva-A9</li>
-<li>wos-iva-A9-rpm</li>
-<li>Prop-Seat-A9</li>
-<li>Aggregat4Extras\internal.cfg</li>
-<li>Aggregat4Extras\internal-rpm.cfg</li>
-<li>Aggregat4Extras\Prop_Seat_A9.cfg</li>
+<li>2x &lt;blotchydark.dds&gt; 22kb {44kb}</li>
+<li>3x &lt;RedstoneA6-NAA75-110Turbine.dds&gt; 1.33mb {3.99mb}</li>
+<li>3x &lt;GreenContrlFin.dds&gt; 22kb {66kb}</li>
+</ul></li>
+<li>Rename
+<ul>
+<li>Parts
+<ul>
+<li>Wing4Redstone --&gt; wos-A6-winglet</li>
+<li>Wing4A10 --&gt; wos-A10-wing</li>
+<li>Wing4A11 --&gt; wos-A11-wing</li>
+<li>RedstoneEngineShroud --&gt; wos-A6-engine-shroud</li>
+<li>A10_Shell --&gt; wos-A10-shell</li>
+<li>A11_Shell --&gt; wos-A11-shell</li>
+<li>A12_Shell --&gt; wos-A12-shell</li>
+</ul></li>
+<li>Part config
+<ul>
+<li>&lt;A6wing.cfg&gt; --&gt; &lt;wos-A6-winglet.cfg&gt;</li>
+<li>&lt;A10wing.cfg&gt; --&gt; &lt;wos-A10-wing.cfg&gt;</li>
+<li>&lt;A11wing.cfg&gt; --&gt; &lt;wos-A11-wing.cfg&gt;</li>
+<li>&lt;RedstoneEngineShroud.cfg&gt; --&gt;
+&lt;wos-A6-engine-shroud.cfg&gt;</li>
+<li>&lt;Cover.cfg&gt; --&gt; &lt;wos-A10-shell.cfg&gt;</li>
+<li>&lt;A11_Shell.cfg&gt; --&gt; &lt;wos-A11-shell.cfg&gt;</li>
+<li>&lt;Cover.cfg&gt; --&gt; &lt;wos-A12-shell.cfg&gt;</li>
+</ul></li>
+<li>Models
+<ul>
+<li>&lt;NewModel.mu&gt; --&gt; &lt;A6-winglet.mu&gt;</li>
+<li>&lt;NewModel.mu&gt; --&gt; &lt;A10-wing.mu&gt;</li>
+<li>&lt;NewModel.mu&gt; --&gt; &lt;A11-wing.mu&gt;</li>
+<li>&lt;NewModel.mu&gt; --&gt; &lt;A6-engine-shroud.mu&gt;</li>
+<li>&lt;NewModel.mu&gt; --&gt; &lt;A10-shell.mu&gt;</li>
+<li>&lt;NewModel.mu&gt; --&gt; &lt;A11-shell.mu&gt;</li>
+<li>&lt;NewModel.mu&gt; --&gt; &lt;A12-shell.mu&gt;</li>
+</ul></li>
 </ul></li>
 </ul>
 <h3 id="configs-19993">Configs 1.9.99.3</h3>
 <ul>
-<li>&lt;VariantThemes.cfg&gt; v1.0.0.0</li>
-<li>closes #44 - [BUG] Unable to find theme</li>
+<li>Update
+<ul>
+<li>&lt;WernhersOldStuff.cfg&gt; v1.1.0.0
+<ul>
+<li>add series specific tags</li>
+</ul></li>
+<li>&lt;VariantThemes.cfg&gt; v1.0.1.0
+<ul>
+<li>finish localizing</li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 id="compatibility-19993">Compatibility 1.9.99.3</h3>
+<ul>
+<li>Add
+<ul>
+<li>&lt;RealSolarSystem.cfg&gt; v1.0.0.0
+<ul>
+<li>pull from part configs</li>
+</ul></li>
+</ul></li>
 </ul>
 <h3 id="parts-19993">Parts 1.9.99.3</h3>
 <ul>
 <li>Updated
 <ul>
-<li>&lt;A9Cockpit.cfg&gt; --&gt; &lt;wos-A9-cockpit-nose.cfg&gt;</li>
-<li>&lt;Skids.cfg&gt; --&gt; &lt;wos-aggregate-skid.cfg&gt;</li>
-<li>&lt;A9Wing.cfg&gt; --&gt; &lt;wos-A9-wing.cfg&gt;</li>
-<li>&lt;A6Ramjet.cfg&gt; --&gt; &lt;wos-A6-Ramjet-two.cfg&gt;</li>
-<li>&lt;A-6wing.cfg&gt; --&gt; &lt;wos-A6-wing.cfg&gt;</li>
-<li>&lt;A-4bWing.cfg&gt; --&gt; &lt;wos-A4-wing-b.cfg&gt;</li>
+<li>localized</li>
+<li>linted</li>
+<li>organized</li>
+<li>correct cost of A12-tank-dual</li>
+<li>Add
+<ul>
+<li>weak reaction wheel to A9 cockpit (request)</li>
+<li>thank you to <a
+href="https://forum.kerbalspaceprogram.com/index.php?/profile/193094-*/">claustro</a>
+for the suggestion</li>
 </ul></li>
+<li>Rename
+<ul>
+<li>Parts
+<ul>
+<li>Wing4Redstone --&gt; wos-A6-winglet</li>
+<li>Wing4A10 --&gt; wos-A10-wing</li>
+<li>Wing4A11 --&gt; wos-A11-wing</li>
+<li>RedstoneEngineShroud --&gt; wos-A6-engine-shroud</li>
+<li>A10_Shell --&gt; wos-A10-shell</li>
+<li>A11_Shell --&gt; wos-A11-shell</li>
+<li>A12_Shell --&gt; wos-A12-shell</li>
+</ul></li>
+<li>Part config
+<ul>
+<li>&lt;A6wing.cfg&gt; --&gt; &lt;wos-A6-winglet.cfg&gt;</li>
+<li>&lt;A10wing.cfg&gt; --&gt; &lt;wos-A10-wing.cfg&gt;</li>
+<li>&lt;A11wing.cfg&gt; --&gt; &lt;wos-A11-wing.cfg&gt;</li>
+<li>&lt;RedstoneEngineShroud.cfg&gt; --&gt;
+&lt;wos-A6-engine-shroud.cfg&gt;</li>
+<li>&lt;Cover.cfg&gt; --&gt; &lt;wos-A10-shell.cfg&gt;</li>
+<li>&lt;A11_Shell.cfg&gt; --&gt; &lt;wos-A11-shell.cfg&gt;</li>
+<li>&lt;Cover.cfg&gt; --&gt; &lt;wos-A12-shell.cfg&gt;</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>closes #58 - [BUG] wos-A12-tank-dual: part cost (13000.0) is less
+than the cost of its resources (190391.1)</li>
+<li>closes #52 - [Request]: add reaction wheels to command noses (weak
+to match period)</li>
+<li>updates #57 - [Bug] Part costs</li>
 </ul>
 <h3 id="status-19993">Status 1.9.99.3</h3>
 <ul>
 <li>Issues
 <ul>
+<li>closes #55 - Wernher's Old Stuff (WOS) 1.9.99.3-prerelease
+<code>&lt;Fourth First Steps&gt;</code> edition</li>
+<li>closes #56 - 1.9.99.3 Additional Tasks</li>
 <li>updates #32 - Assets move and organization 🎨 📁</li>
 <li>updates #31 - Rename</li>
-<li>closes #47 - Wernher's Old Stuff (WOS) 1.9.99.3-prerelease
-<code>&lt;Third First Steps&gt;</code></li>
-<li>closes #48 - 1.9.99.3 Verify Legal Mumbo Jumbo</li>
-<li>closes #49 - 1.9.99.3 Update Documentation</li>
-<li>closes #50 - 1.9.99.3 Update Social Media</li>
-<li>updates - #36 - Add part thumbs</li>
+<li>updates #36 - Add part thumbs</li>
 </ul></li>
 </ul>
 <hr />
