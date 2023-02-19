@@ -17,9 +17,14 @@ duplicate removal
   * A-2_NRM.dds 342kb
   * A-2.dds 342kb
 
-wos-A2-base-guide (split out into own part.cfg)
+wos-A1-gyro
+wos-A1-tank
 
-RealFuels.cfg v1.0.0.0
+wos-A2-base
+wos-A2-base-guide (split out into own part.cfg)
+wos-A2-engine
+
+RealFuels.cfg v1.0.0.0-
 
 ## Version 1.9.99.4-prerelease `<Fifth First Steps>` edition
 
