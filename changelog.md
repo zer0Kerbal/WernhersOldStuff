@@ -19,7 +19,7 @@ duplicate removal
 
 wos-A2-base-guide (split out into own part.cfg)
 
-
+RealFuels.cfg v1.0.0.0
 
 ## Version 1.9.99.4-prerelease `<Fifth First Steps>` edition
 
