@@ -1,0 +1,57 @@
+wos-A1-tank
+wos-A2-tank-nitrogen
+wos-A2-tank-oxygen
+@PART[BLAHBLAH]:NEEDS[CommunityResourcePack&!RealSolarSystem]
+{
+	!RESOURCE[LiquidFuel]{}
+	!RESOURCE[Oxidizer]{}
+	RESOURCE
+	{
+		name = Ethanol75
+		amount = 587.75
+		maxAmount = 587.75
+	}
+		RESOURCE
+	{
+		name = LqdOxygen
+		amount = 536.75
+		maxAmount = 536.75
+	}
+}
+
+@PART[BLAHBLAH]:NEEDS[CommunityResourcePack&RealSolarSystem]
+{
+
+	@rescaleFactor = 1.0
+	@mass = 1.6
+	!RESOURCE[LiquidFuel]{}
+	!RESOURCE[Oxidizer]{}
+	RESOURCE
+	{
+		name = Ethanol75
+		amount = 4702
+		maxAmount = 4702
+	}
+		RESOURCE
+	{
+		name = LqdOxygen
+		amount = 4294
+		maxAmount = 4294
+	}
+}
+@PART[BLAHBLAH]:NEEDS[RealSolarSystem&!CommunityResourcePack]
+{
+
+	@rescaleFactor = 1.0
+	@mass = 1.6
+	@RESOURCE[LiquidFuel]
+	{
+		amount = 990
+		maxAmount = 990
+	}
+	@RESOURCE[Oxidizer]
+	{
+		amount = 810
+		maxAmount = 810
+	}
+}

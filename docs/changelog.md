@@ -22,6 +22,100 @@ CC BY-ND 4.0 by zer0Kerbal
 | spacedock  | (https://spacedock.info/mod/42)                                   |
 | ckan       | WernhersOldStuff                                                  |
 
+## Version 1.9.99.4-prerelease `<Fifth First Steps>` edition
+
+* Released
+  * on: 17 Feb 2023
+  * for: Kerbal Space Program KSP 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+This release is in a series of updates to this addon. Each update will update some of the parts and patches so that this addon can be updated in a more manageable manner instead of one massive update.
+
+### Summary 1.9.99.4
+
+* This is next in a series of updates with each (pre)release updating some of the fourty-eight (47+1) parts and patches so this addon can be updated in a more manageable way.
+* Found another part hiding in another part's house
+* All parts have been localized
+  * some part tags need to be added yet and using placeholders
+* This update pass (47+1 parts total)
+  * seven (7) parts updated
+  * reduced release size by 2.1mb (culmative 8.8mb less png-dds conversion)
+  * twelve (12) parts left to update
+* Now can search `wos`, `A1`, `A2`, `A3`, `A4`, `A5`, `A6`, `A9`, `A10`, `A11`, `A12` in editors
+* ghostparts.cfg has been updated and temporarily addedto compensate for parts that were renamed
+* parts updated this release include:
+  * A1-gyro
+  * A1-tank
+  * A2-base
+  * A2-base-guide (split out into own part.cfg)
+  * A2-engine
+  * A2-tank-nitrogen
+  * A2-tank-oxygen
+* split out RealFuels.cfg v1.0.0.0
+
+### Localization 1.9.99.4
+
+* Update
+  * <en-us.cfg> v1.0.1.0
+    * linting
+    * organizing
+    * standardizing strings
+* updates #12 - Localization - Master
+* updates #13 - English <us-en.cfg>
+* updates #30 - Part Localization
+
+### Asset 1.9.99.4
+
+* converted .png to .dds
+  * props
+    * png --> bc3 dds
+    * 25.9mb --> 13.9mb
+* Eliminated duplicates
+  * A-2_NRM.dds 342kb
+  * A-2.dds 342kb
+  * 684kb total
+
+### Configs 1.9.99.4
+
+* Update
+  * <WernhersOldStuff.cfg> v1.9.99.4
+    * add series specific tags
+  * <GhostParts.cfg> v1.9.99.4
+
+### Compatibility 1.9.99.4
+
+* Add
+  * RealFuels.cfg v1.0.0.0
+    * pull from part configs
+
+### Parts 1.9.99.3
+
+* Updated
+  * localized
+  * linted
+  * organized
+  Parts included in this update
+    * A1-gyro
+    * A1-tank
+    * A2-base
+    * A2-base-guide (split out into own part.cfg)
+    * A2-engine
+    * A2-tank-nitrogen
+    * A2-tank-oxygen
+* updates #57 - [Bug] Part costs
+
+### Status 1.9.99.4
+
+* Issues
+  * closes #61 - Wernher's Old Stuff (WOS) 1.9.99.4-prerelease `<Fifth First Steps>` edition
+  * closes #62 - 1.9.99.4 Additional Tasks
+  * updates #32 - Assets move and organization 🎨 📁
+  * updates #31 - Rename
+  * updates #36 - Add part thumbs
+  * updates #57 - [Bug] Part costs
+
+---
+
 ## Version 1.9.99.3-prerelease `<Fourth First Steps>` edition
 
 * Released
@@ -636,3 +730,4 @@ Updated and fixed the A-10 engine, specifically because I noticed it was overwri
 * *No changelog provided*
 
 ---
+
