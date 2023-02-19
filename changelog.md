@@ -13,6 +13,12 @@
 * props
   * png --> bc3 dds
   * 25.9mb --> 13.9mb
+duplicate removal
+  * A-2_NRM.dds 342kb
+  * A-2.dds 342kb
+
+wos-A2-base-guide (split out into own part.cfg)
+
 
 
 ## Version 1.9.99.4-prerelease `<Fifth First Steps>` edition
