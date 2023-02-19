@@ -1,0 +1,36 @@
+{
+	"NAME"		     : "Wernher's Old Stuff (WOS) by TiktaalikDreaming",
+	"URL"			 : "https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/WernhersOldStuff.version",
+	"DOWNLOAD"	     : "https://github.com/zer0Kerbal/WernhersOldStuff/releases/latest",
+	"CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/changelog.md",
+	"GITHUB" :
+	{
+		"USERNAME"	        : "zer0Kerbal",
+		"REPOSITORY"		: "WernhersOldStuff",
+		"ALLOW_PRE_RELEASE" : false
+	},
+	"VERSION" :
+	{
+		"MAJOR" : 1,
+		"MINOR" : 9,
+		"PATCH" : 99,
+		"BUILD" : 4
+	},
+	"KSP_VERSION" :
+	{
+		"MAJOR" : 1,
+		"MINOR" : 12,
+		"PATCH" : 5
+	},
+	"KSP_VERSION_MIN" :
+	{
+		"MAJOR" : 1,
+		"MINOR" : 3,
+		"PATCH" : 1
+	},
+	"INSTALL_LOC" :
+	{
+		"NAME" :	  "WernhersOldStuff",
+		"DIRECTORY" : "WernhersOldStuff"
+	}
+}
