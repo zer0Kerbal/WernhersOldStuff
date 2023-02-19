@@ -10,22 +10,6 @@
 | spacedock  | (https://spacedock.info/mod/42)                                   |
 | ckan       | WernhersOldStuff                                                  |
 
-* props
-  * png --> bc3 dds
-  * 25.9mb --> 13.9mb
-duplicate removal
-  * A-2_NRM.dds 342kb
-  * A-2.dds 342kb
-
-wos-A1-gyro
-wos-A1-tank
-
-wos-A2-base
-wos-A2-base-guide (split out into own part.cfg)
-wos-A2-engine
-
-RealFuels.cfg v1.0.0.0-
-
 ## Version 1.9.99.4-prerelease `<Fifth First Steps>` edition
 
 * Released
@@ -35,83 +19,61 @@ RealFuels.cfg v1.0.0.0-
 
 This release is in a series of updates to this addon. Each update will update some of the parts and patches so that this addon can be updated in a more manageable manner instead of one massive update.
 
+### Summary 1.9.99.4
 
-### Summary 1.9.99.3
-
-* This is next in a series of updates with each (pre)release updating some of the fourty-seven (47) parts and patches so this addon can be updated in a more manageable way.
-* All parts have been localized, some part tags need to be added yet, placeholders are in place
-* This update pass (47 parts total)
+* This is next in a series of updates with each (pre)release updating some of the fourty-eight (47+1) parts and patches so this addon can be updated in a more manageable way.
+* Found another part hiding in another part's house
+* All parts have been localized
+  * some part tags need to be added yet and using placeholders
+* This update pass (47+1 parts total)
   * seven (7) parts updated
-  * reduced release size by 1.44mb (culmative 3.3mb less png-dds conversion)
-  * eighteen (18) parts left to update
-* Now can search `wos`, `A2`, `A3`, `A4`, `A5`, `A6`, `A9`, `A10`, `A11`, `A12` in editors
+  * reduced release size by 2.1mb (culmative 8.8mb less png-dds conversion)
+  * twelve (12) parts left to update
+* Now can search `wos`, `A1`, `A2`, `A3`, `A4`, `A5`, `A6`, `A9`, `A10`, `A11`, `A12` in editors
 * ghostparts.cfg has been updated and temporarily addedto compensate for parts that were renamed
 * parts updated this release include:
-  * A6 engine shroud
-  * A6 winglet
-  * A10 shell
-  * A10 wing
-  * A11 shell
-  * A11 wing
-  * A12 shell
-  * A9 cockpit nose
-    * add weak reaction wheel (request)
+  * A1-gyro
+  * A1-tank
+  * A2-base
+  * A2-base-guide (split out into own part.cfg)
+  * A2-engine
+  * A2-tank-nitrogen
+  * A2-tank-oxygen
+* split out RealFuels.cfg v1.0.0.0
 
-### Localization 1.9.99.3
+### Localization 1.9.99.4
 
 * Update
   * <en-us.cfg> v1.0.1.0
     * linting
     * organizing
+    * standardizing strings
 * updates #12 - Localization - Master
 * updates #13 - English <us-en.cfg>
 * updates #30 - Part Localization
 
-### Asset 1.9.99.3
+### Asset 1.9.99.4
 
 * converted .png to .dds
+  * props
+    * png --> bc3 dds
+    * 25.9mb --> 13.9mb
 * Eliminated duplicates
-  * 2x <blotchydark.dds> 22kb {44kb}
-  * 3x <RedstoneA6-NAA75-110Turbine.dds> 1.33mb {3.99mb}
-  * 3x <GreenContrlFin.dds> 22kb {66kb}
-* Rename
-  * Parts
-    * Wing4Redstone --> wos-A6-winglet
-    * Wing4A10 --> wos-A10-wing
-    * Wing4A11 --> wos-A11-wing
-    * RedstoneEngineShroud --> wos-A6-engine-shroud
-    * A10_Shell --> wos-A10-shell
-    * A11_Shell --> wos-A11-shell
-    * A12_Shell --> wos-A12-shell
-  * Part config
-    * <A6wing.cfg> --> <wos-A6-winglet.cfg>
-    * <A10wing.cfg> --> <wos-A10-wing.cfg>
-    * <A11wing.cfg> --> <wos-A11-wing.cfg>
-    * <RedstoneEngineShroud.cfg> --> <wos-A6-engine-shroud.cfg>
-    * <Cover.cfg> --> <wos-A10-shell.cfg>
-    * <A11_Shell.cfg> --> <wos-A11-shell.cfg>
-    * <Cover.cfg> --> <wos-A12-shell.cfg>
-  * Models
-    * <NewModel.mu> --> <A6-winglet.mu>
-    * <NewModel.mu> --> <A10-wing.mu>
-    * <NewModel.mu> --> <A11-wing.mu>
-    * <NewModel.mu> --> <A6-engine-shroud.mu>
-    * <NewModel.mu> --> <A10-shell.mu>
-    * <NewModel.mu> --> <A11-shell.mu>
-    * <NewModel.mu> --> <A12-shell.mu>
+  * A-2_NRM.dds 342kb
+  * A-2.dds 342kb
+  * 684kb total
 
-### Configs 1.9.99.3
+### Configs 1.9.99.4
 
 * Update
-  * <WernhersOldStuff.cfg> v1.1.0.0
+  * <WernhersOldStuff.cfg> v1.9.99.4
     * add series specific tags
-  * <VariantThemes.cfg> v1.0.1.0
-    * finish localizing
+  * <GhostParts.cfg> v1.9.99.4
 
-### Compatibility 1.9.99.3
+### Compatibility 1.9.99.4
 
 * Add
-  * <RealSolarSystem.cfg> v1.0.0.0
+  * RealFuels.cfg v1.0.0.0
     * pull from part configs
 
 ### Parts 1.9.99.3
@@ -120,32 +82,17 @@ This release is in a series of updates to this addon. Each update will update so
   * localized
   * linted
   * organized
-  * correct cost of A12-tank-dual
-  * Add
-    * weak reaction wheel to A9 cockpit (request)
-    * thank you to [claustro](https://forum.kerbalspaceprogram.com/index.php?/profile/193094-*/) for the suggestion
-  * Rename
-    * Parts
-      * Wing4Redstone --> wos-A6-winglet
-      * Wing4A10 --> wos-A10-wing
-      * Wing4A11 --> wos-A11-wing
-      * RedstoneEngineShroud --> wos-A6-engine-shroud
-      * A10_Shell --> wos-A10-shell
-      * A11_Shell --> wos-A11-shell
-      * A12_Shell --> wos-A12-shell
-    * Part config
-      * <A6wing.cfg> --> <wos-A6-winglet.cfg>
-      * <A10wing.cfg> --> <wos-A10-wing.cfg>
-      * <A11wing.cfg> --> <wos-A11-wing.cfg>
-      * <RedstoneEngineShroud.cfg> --> <wos-A6-engine-shroud.cfg>
-      * <Cover.cfg> --> <wos-A10-shell.cfg>
-      * <A11_Shell.cfg> --> <wos-A11-shell.cfg>
-      * <Cover.cfg> --> <wos-A12-shell.cfg>
-* closes #58 - [BUG] wos-A12-tank-dual: part cost (13000.0) is less than the cost of its resources (190391.1)
-* closes #52 - [Request]: add reaction wheels to command noses (weak to match period)
+  Parts included in this update
+    * A1-gyro
+    * A1-tank
+    * A2-base
+    * A2-base-guide (split out into own part.cfg)
+    * A2-engine
+    * A2-tank-nitrogen
+    * A2-tank-oxygen
 * updates #57 - [Bug] Part costs
 
-### Status 1.9.99.3
+### Status 1.9.99.4
 
 * Issues
   * closes #61 - Wernher's Old Stuff (WOS) 1.9.99.4-prerelease `<Fifth First Steps>` edition
