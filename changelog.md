@@ -1,8 +1,8 @@
 # Changelog  
   
-| modName    | Wernher's Old Stuff (WOS)                                         |
+| modName    | Wernher's Old Stuff (WOS) by TiktaalikDreaming                    |
 | ---------- | ----------------------------------------------------------------- |
-| license    | CC-BY-SA-4.0                                                      |
+| license    | CC-BY-SA-4.0+ARR                                                  |
 | author     | TiktaalikDreaming and zer0Kerbal                                  |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/207233-*/) |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/WernhersOldStuff)       |
@@ -21,7 +21,7 @@ This release is in a series of updates to this addon. Each update will update so
 
 ### Summary 1.9.99.4
 
-* This is next in a series of updates with each (pre)release updating some of the fourty-eight (47+1) parts and patches so this addon can be updated in a more manageable way.
+* This is next in a series of updates with each (pre)release updating some of the forty-eight (47+1) parts and patches so this addon can be updated in a more manageable way.
 * Found another part hiding in another part's house
 * All parts have been localized
   * some part tags need to be added yet and using placeholders
@@ -76,7 +76,7 @@ This release is in a series of updates to this addon. Each update will update so
   * RealFuels.cfg v1.0.0.0
     * pull from part configs
 
-### Parts 1.9.99.3
+### Parts 1.9.99.4
 
 * Updated
   * localized
@@ -113,7 +113,7 @@ This release is in a series of updates to this addon. Each update will update so
 
 ### Summary 1.9.99.3
 
-* This is next in a series of updates with each (pre)release updating some of the fourty-seven (47) parts and patches so this addon can be updated in a more manageable way.
+* This is next in a series of updates with each (pre)release updating some of the forty-seven (47) parts and patches so this addon can be updated in a more manageable way.
 * All parts have been localized, some part tags need to be added yet, placeholders are in place
 * This update pass (47 parts total)
   * seven (7) parts updated
