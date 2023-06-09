@@ -12,7 +12,7 @@ updated: 29 Jul 2022 -->
 
 <!-- based upon work by Lisias -->
 
-# Wernher's Old Stuff (WOS)
+## [Wernher's Old Stuff (WOS)][mod]
 
 [Home](./index.md)
 
@@ -79,3 +79,8 @@ To install, place the `GameData` folder inside your Kerbal Space Program folder:
 ### Dependencies
 
 * none
+
+THIS FILE: CC BY-ND 4.0 by [zer0Kerbal](https://github.com/zer0Kerbal)
+  used with express permission from zer0Kerbal
+
+[mod]: https://www.curseforge.com/kerbal/ksp-mods/WernhersOldStuff "Wernher's Old Stuff (WOS)"
