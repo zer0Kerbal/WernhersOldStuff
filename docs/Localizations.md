@@ -4,18 +4,20 @@ title: Localizations
 description: camera goes *click-click*
 tags: translations,localizations,languages,page,kerbal,ksp,zer0Kerbal,zedK
 ---
-
-<!-- Localizations.md v1.1.7.0
+<!-- Localizations.md v1.0.5.0
 Wernher's Old Stuff (WOS)
+created: 19 Jul 2022 
+updated: 08 Jun 2023
+
+TEMPLATE: Localizations.md v1.1.9.0
 created: 01 Feb 2022
-updated: 03 Jun 2022 -->
+updated: 24 Mar 2023
 
+THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
-<div class="fa-3x">
-  <i class="fa fa-language fa-beat-fade" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25; color: #BADA55"></i>
-</div>
+<div class="fa-3x"><i class="fa fa-language fa-beat-fade" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25; color: #BADA55"></i></div>
 
-# Wernher's Old Stuff (WOS)
+## [Wernher's Old Stuff (WOS)][mod]
 
 [Home](./index.md)
 
@@ -37,7 +39,7 @@ __These localizations for KSP and its DLC's are available through Steam:__
 ## Additionally Included
 
 * ![Español Mexicano][MX] Mexican Spanish (Español Mexicano) <es-mx.cfg>  
-* ![한국어][KO] [Korean (한국어) <ko.cfg>  
+* ![한국어][KO] Korean (한국어) <ko.cfg>  
 * ![Dutch][NL] Dutch (Nederlands) <nl-nl.cfg>  
 * ![Norsk][NO] Norwegian (Norsk) <no-no.cfg>  
 * ![Polski][PO] Polish (Polski) <pl.cfg>  
@@ -67,4 +69,7 @@ __These localizations for KSP and its DLC's are available through Steam:__
 [TR]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/TR.png "Türk"
 [TW]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/TW.png "国语"
 
-<!-- this file CC BY-ND 4.0 by zer0Kerbal -->
+THIS FILE: CC BY-ND 4.0 by [zer0Kerbal](https://github.com/zer0Kerbal)
+  used with express permission from zer0Kerbal
+
+[mod]: https://www.curseforge.com/kerbal/ksp-mods/WernhersOldStuff "Wernher's Old Stuff (WOS)"
