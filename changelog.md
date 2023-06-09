@@ -10,6 +10,37 @@
 | spacedock  | (https://spacedock.info/mod/42)                                   |
 | ckan       | WernhersOldStuff                                                  |
 
+## Version 1.9.99.5-prerelease `<Sixth First Steps>` edition
+
+* Released
+  * 08 Jun 2023
+  * for Kerbal Space Program KSP 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+* 📌 Pinned
+  * This release is in a series of updates to this addon. Each update will update some of the parts and  patches so that this addon can be updated in a more manageable manner instead of one massive update.
+  * Now can search `wos`, `A1`, `A2`, `A3`, `A4`, `A5`, `A6`, `A9`, `A10`, `A11`, `A12` in editors
+  * ghostparts.cfg has been updated and temporarily added to compensate for parts that were renamed
+
+
+  * closes #69 - [BUG] Model load err
+  * closes #68 - [BUG] Texture 'WernhersOldStuff/Props/VintageDials/BlankBMP' not found!
+  * closes #67 - [BUG] part cost
+  * closes #57 - [Bug] Part costs
+  * closes #51 - Agency Description
+  * closes #36 - Add part thumbs
+  * closes #32 - Assets move and organization 🎨 📁
+  * closes #31 - Rename
+
+### Status 1.9.99.5
+
+* Issues
+  * closes #65 - Wernher's Old Stuff (WOS) 1.9.99.5-prerelease `<Sixth First Steps>` edition
+  * closes #66 - 1.9.99.5 Additional Tasks
+  * closes #64 - Duplicate
+
+---
+
 ## Version 1.9.99.4-prerelease `<Fifth First Steps>` edition
 
 * Released
