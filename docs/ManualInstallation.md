@@ -4,14 +4,12 @@ title: Manual Installation
 description: the flat-pack Kiea instructions, written in Kerbalese, unusally present
 tags: installation,directions,page,kerbal,ksp,zer0Kerbal,zedK
 ---
-
 <!-- ManualInstallation.md v1.1.8.1
 Wernher's Old Stuff (WOS)
 created: 01 Oct 2019
 updated: 29 Jul 2022 -->
 
 <!-- based upon work by Lisias -->
-
 ## [Wernher's Old Stuff (WOS)][mod]
 
 [Home](./index.md)

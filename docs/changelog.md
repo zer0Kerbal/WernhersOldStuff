@@ -12,15 +12,145 @@ updated:
 CC BY-ND 4.0 by zer0Kerbal
 --># Changelog  
   
-| modName    | Wernher's Old Stuff (WOS)                                         |
+| modName    | Wernher's Old Stuff (WOS) by TiktaalikDreaming                    |
 | ---------- | ----------------------------------------------------------------- |
-| license    | CC-BY-SA-4.0                                                      |
+| license    | CC-BY-SA-4.0+ARR                                                  |
 | author     | TiktaalikDreaming and zer0Kerbal                                  |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/207233-*/) |
 | github     | (https://github.com/zer0Kerbal/zer0Kerbal/WernhersOldStuff)       |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/WernhersOldStuff)     |
 | spacedock  | (https://spacedock.info/mod/42)                                   |
 | ckan       | WernhersOldStuff                                                  |
+
+## Version 1.9.99.5-prerelease `<Sixth First Steps>` edition
+
+* Released
+  * 08 Jun 2023
+  * for Kerbal Space Program KSP 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+* 📌 Pinned
+  * This release is in a series of updates to this addon. Each update will update some of the parts and  patches so that this addon can be updated in a more manageable manner instead of one massive update.
+  * Now can search `wos`, `A1`, `A2`, `A3`, `A4`, `A5`, `A6`, `A9`, `A10`, `A11`, `A12` in editors
+  * ghostparts.cfg has been updated and temporarily added to compensate for parts that were renamed
+
+### Change Summary 1.9.99.5
+
+* 49/47 parts included
+  * two parts split out into own files
+  * 2 Custom IVA's
+  * 16 Custom props
+  * 12 Custom FX
+  * Agency
+  * 2 Custom flags
+  * parts are fully localized (English) included actions
+  * Phase I,II,III passes completed
+    * parts pass started (see 1.9.99.0 for more details)
+    * DRAG_CUBES, cargo, and node pass yet to complete
+* .craft
+  * A4 (experimental)
+
+### Changes 1.9.99.5
+
+#### Parts 1.9.99.5
+
+* Parts included in this update (final parts)
+  * Aggregat3n5
+    * wos-A3-tank
+    * wos-A3-wing
+    * wos-A5-gyro-nose
+    * wos-A5-wing
+    * wos-A3-base
+    * wos-A3-eng
+    * wos-A3-gyro-nose
+  * Aggregat4
+    * wos-A4-gyro
+    * wos-A4-nose
+    * wos-A4-tank
+    * wos-A4-wing-a
+    * wos-A4-wing-fin
+    * wos-A4-eng
+* Update
+  * all parts to include [oldName = ] for ghostparts v2
+  * localized
+  * linted
+  * organized
+  * reformat
+* Remove extraneous quotes
+  * [toggleText = "#autoLOC_236032"]
+  * [enableText = "#autoLOC_236028"]
+  * [disableText = "#autoLOC_236030"]
+* closes #31 - Rename
+* closes #57 - [Bug] Part costs
+* closes #67 - [BUG] part cost
+
+### Asset 1.9.99.5
+
+* upscale (512x320) and convert flags
+* update model texture pointers from .mbm/tga/png to .dds
+* closes #32 - Assets move and organization 🎨 📁
+* closes #69 - [BUG] Model load err
+* updates #68 - [BUG] Texture 'WernhersOldStuff/Props/VintageDials/BlankBMP' not found!
+
+### Localization 1.9.99.5
+
+* Add
+  * [readme-ru.md] v1.0.1.0
+  * [quickstart-ru.md] v1.0.0.0
+  * translations by: (Spasibo) [evanisrael](https://github.com/evanisrael)
+* Update
+  * [en-us.cfg] v1.0.5.0
+    * add
+      * action strings
+      * final missing part strings added
+    * linting
+    * organizing
+    * standardizing strings
+* closes #13 - English <us-en.cfg>
+* closes #30 - Part Localization
+* updates #12 - Localization - Master
+
+### docs/
+
+* Update
+  * [changelog.md]
+  * [readme]
+  * Hero.png
+  * move thumbs to docs
+  * release notes
+  * /docs/
+    * [`_config.yml`] v1.0.3.0
+    * [404.md] v1.0.3.2
+    * [Attribution.md] v1.0.5.0
+    * [Flags.md] v1.0.0.0
+    * [LegalMumboJumbo.md] v1.0.5.1
+    * [Localizations.md] v1.0.5.0
+    * [ManualInstallation.md] v1.1.8.0
+    * [Marketing.md] v1.0.1.2
+    * [Notices.md] v1.0.2.0
+    * [PartsCatalog.md] v1.0.5.0
+    * [Why.md] v1.0.5.0
+* closes #36 - Add part thumbs
+
+### Configs 1.9.99.5
+
+* Update
+  * <WernhersOldStuff.cfg> v1.0.5.0
+    * add missing tags catch
+  * <GhostParts.cfg> v1.0.5.0
+    * update to v2.0.2.0 template
+    * easily can be adjusted to allow old parts to show in editor
+    * or can also be adjusted to just use old part names and hide new (if needed)
+
+### Status 1.9.99.5
+
+* Issues
+  * closes #65 - Wernher's Old Stuff (WOS) 1.9.99.5-prerelease `<Sixth First Steps>` edition
+  * closes #66 - 1.9.99.5 Additional Tasks
+  * closes #64 - Duplicate
+  * updates #51 - Agency Description
+
+---
 
 ## Version 1.9.99.4-prerelease `<Fifth First Steps>` edition
 
@@ -42,7 +172,7 @@ This release is in a series of updates to this addon. Each update will update so
   * reduced release size by 2.1mb (culmative 8.8mb less png-dds conversion)
   * twelve (12) parts left to update
 * Now can search `wos`, `A1`, `A2`, `A3`, `A4`, `A5`, `A6`, `A9`, `A10`, `A11`, `A12` in editors
-* ghostparts.cfg has been updated and temporarily addedto compensate for parts that were renamed
+* ghostparts.cfg has been updated and temporarily added to compensate for parts that were renamed
 * parts updated this release include:
   * A1-gyro
   * A1-tank
@@ -56,7 +186,7 @@ This release is in a series of updates to this addon. Each update will update so
 ### Localization 1.9.99.4
 
 * Update
-  * <en-us.cfg> v1.0.1.0
+  * [en-us.cfg] v1.0.1.0
     * linting
     * organizing
     * standardizing strings
@@ -88,7 +218,7 @@ This release is in a series of updates to this addon. Each update will update so
   * RealFuels.cfg v1.0.0.0
     * pull from part configs
 
-### Parts 1.9.99.3
+### Parts 1.9.99.4
 
 * Updated
   * localized
@@ -147,7 +277,7 @@ This release is in a series of updates to this addon. Each update will update so
 ### Localization 1.9.99.3
 
 * Update
-  * <en-us.cfg> v1.0.1.0
+  * [en-us.cfg] v1.0.1.0
     * linting
     * organizing
 * updates #12 - Localization - Master
@@ -263,11 +393,11 @@ This Release has been reduced by 1.0mb  (cumulatively 1.86mb) by removing duplic
 
 ### Localization 1.9.99.2
 
-* run localizer
+* localize parts
 * Create
   * Agency
   * Localization/
-    * <en-us.cfg>
+    * [en-us.cfg]
     * [readme.md] v2.1.2.0
     * [quickstart.md] v1.0.1.1
 * Add
@@ -539,11 +669,11 @@ This Release has been reduced by 0.86mb by removing duplicate files.
 
 * Create
   * Localization/
-    * <en-us.cfg>
+    * [en-us.cfg]
     * [readme.md] v2.1.2.0
     * [quickstart.md] v1.0.1.1
 * updates #12 - Localization Master
-* updates #13 - Localization - English <en-us.cfg>
+* updates #13 - Localization - English [en-us.cfg]
 * updates #30 - Part Localization
 
 ### Documentation 1.9.99.0
