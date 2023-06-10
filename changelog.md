@@ -17,6 +17,8 @@
   * for Kerbal Space Program KSP 1.12.5
   * by [zer0Kerbal](https://github.com/zer0Kerbal)
 
+49/49 parts
+
 * 📌 Pinned
   * This release is in a series of updates to this addon. Each update will update some of the parts and  patches so that this addon can be updated in a more manageable manner instead of one massive update.
   * Now can search `wos`, `A1`, `A2`, `A3`, `A4`, `A5`, `A6`, `A9`, `A10`, `A11`, `A12` in editors
