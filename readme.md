@@ -22,6 +22,8 @@ Old rocket parts from the dawn of the rocket age, back during kerbals Komplete K
   * 12 Custom FX
   * Agency
   * 2 Custom flags
+* .craft
+  * A4 (experimental)
 
 ## By [`zer0Kerbal`][zer0Kerbal], originally [`TiktaalikDreaming`][auth-link]  
 
