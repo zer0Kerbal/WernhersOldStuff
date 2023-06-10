@@ -7,6 +7,7 @@
 ## Documents
 - [404](404.md)
 - [Attributions](Attributions.md)
+- [Flags](Flags.md)
 - [LegalMumboJumbo](LegalMumboJumbo.md)
 - [Localizations](Localizations.md)
 - [ManualInstallation](ManualInstallation.md)
