@@ -75,6 +75,7 @@
 ### Asset 1.9.99.5
 
 * upscale (512x320) and convert flags
+* update model texture pointers from .mbm/tga/png to .dds
 * closes #32 - Assets move and organization 🎨 📁
 * closes #68 - [BUG] Texture 'WernhersOldStuff/Props/VintageDials/BlankBMP' not found!
 * closes #69 - [BUG] Model load err
