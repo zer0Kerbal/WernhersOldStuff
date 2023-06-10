@@ -24,15 +24,17 @@
 
 ### Change Summary 1.9.99.5
 
-* 49/47 parts included 
+* 49/47 parts included
   * two parts split out into own files
   * 2 Custom IVA's
   * 16 Custom props
   * 12 Custom FX
   * Agency
   * 2 Custom flags
-* MISSING
-  * DRAG_CUBES, ModuleCargo/ModuleInventory
+  * parts are fully localized (English) included actions
+  * Phase I,II,III passes completed
+    * parts pass started (see 1.9.99.0 for more details)
+    * DRAG_CUBES, cargo, and node pass yet to complete
 
 ### Changes 1.9.99.5
 
@@ -59,12 +61,14 @@
   * localized
   * linted
   * organized
+  * reformat
 * closes #31 - Rename
 * closes #57 - [Bug] Part costs
 * closes #67 - [BUG] part cost
 
 ### Asset 1.9.99.5
 
+* upscale (512x320) and convert flags
 * closes #32 - Assets move and organization 🎨 📁
 * closes #68 - [BUG] Texture 'WernhersOldStuff/Props/VintageDials/BlankBMP' not found!
 * closes #69 - [BUG] Model load err
