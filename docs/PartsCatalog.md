@@ -21,7 +21,7 @@ updated: 01 May 2023 -->
 
 ## Parts Catalog
 
-This add-on adds over forty early history themed parts
+This add-on adds forty-nine early history themed parts
 
 <img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/thumbs/wos-redstone-tank_icon.png" alt="redstone-tank" width="25%" height="25%" />
 <img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/thumbs/wos-A6-engine_icon.png" alt="A6-engine" width="25%" height="25%" />
