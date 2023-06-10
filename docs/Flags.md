@@ -31,13 +31,13 @@ THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 
 ### Elektromechanische Werke
 
- <img src="https://raw.githubusercontent.com/zer0Kerbal/WerhnersOldStuf/master/docs/Flags/EMW-Flag.png" alt="Elektromechanische Werke" style="zoom:75%;" />
+ <img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/Flags/EMW-Flag.png" alt="Elektromechanische Werke" style="zoom:75%;" />
 
 [top](#flags)
 
 ### Wernher von Kerben
 
- <img src="https://raw.githubusercontent.com/zer0Kerbal/WerhnersOldStuf/master/docs/Flags/VonB-Flag.png" alt="Werhner" style="zoom:75%;" />
+ <img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/Flags/VonB-Flag.png" alt="Werhner" style="zoom:75%;" />
 
 [top](#flags)
 
