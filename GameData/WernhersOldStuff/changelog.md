@@ -35,6 +35,8 @@
   * Phase I,II,III passes completed
     * parts pass started (see 1.9.99.0 for more details)
     * DRAG_CUBES, cargo, and node pass yet to complete
+* .craft
+  * A4 (experimental)
 
 ### Changes 1.9.99.5
 
@@ -62,6 +64,10 @@
   * linted
   * organized
   * reformat
+* Remove extraneous quotes
+  * [toggleText = "#autoLOC_236032"]
+  * [enableText = "#autoLOC_236028"]
+  * [disableText = "#autoLOC_236030"]
 * closes #31 - Rename
 * closes #57 - [Bug] Part costs
 * closes #67 - [BUG] part cost
@@ -69,9 +75,10 @@
 ### Asset 1.9.99.5
 
 * upscale (512x320) and convert flags
+* update model texture pointers from .mbm/tga/png to .dds
 * closes #32 - Assets move and organization 🎨 📁
-* closes #68 - [BUG] Texture 'WernhersOldStuff/Props/VintageDials/BlankBMP' not found!
 * closes #69 - [BUG] Model load err
+* updates #68 - [BUG] Texture 'WernhersOldStuff/Props/VintageDials/BlankBMP' not found!
 
 ### Localization 1.9.99.5
 
