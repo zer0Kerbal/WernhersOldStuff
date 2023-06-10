@@ -16,6 +16,13 @@ THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 
 Old rocket parts from the dawn of the rocket age, back during kerbals Komplete Konflict II.  Wernher von Kerben's legacy. Old Aggregate rockets including those that were never built. For Kerbal Space Program.
 
+* forty-nine (49) parts
+  * 2 Custom IVA's
+  * 16 Custom props
+  * 12 Custom FX
+  * Agency
+  * 2 Custom flags
+
 ## By [`zer0Kerbal`][zer0Kerbal], originally [`TiktaalikDreaming`][auth-link]  
 
 adopted with *express* permission and brought to you by *KerbSimpleCo*
